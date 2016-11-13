@@ -41,16 +41,45 @@ a{
   color: 493627;
 }
 
+a img.another { display: none; }
+
+   a:hover img.actul { display: none }
+   a:hover img.another { display: block; }
+
 article{color: ECAB21;
 }
 
 .run{ padding-left: 150px;
       font-family: TimesNewRoman;
-      font-size: 30px;}
-.hello{padding-left: 250px;
+      font-size: 30px;
+      display: inline-block;
+    }
+.hello{position: abolute;
+      padding-left: -250px;
       font-size: 20px;
       list-style-type: none;
 }
+.goodbye{ padding-left: 50px;
+          font-size: 20px;
+          list-style-type: none;}
+.night{ display:
+}
+/*<style>*/
+   /*a img.Large { display: none; }*/
+
+   /*a:hover img.Small { display: none }*/
+   /*a:hover img.Large { display: block; }*/
+/*</style>*/
+/**/
+/*<a href="your link">*/
+   /*<img class="Small" src="images/asiago.png"*/
+      /*width="32" height="32"*/
+      /*alt="Photoshop Enhancement" />*/
+
+   /*<img class="Large" src="images/bagel-asiago.png"*/
+      /*width="800" height="753"*/
+      /*alt="Photoshop Enhancement" />*/
+/*</a>*/
 
 footer{
   background-color: 493627;
